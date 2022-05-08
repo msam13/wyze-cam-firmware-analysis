@@ -1,0 +1,215 @@
+***Firmware Directory***
+/home/esslp/wyze-cam-firmware-analysis/demo_wcv3_4.36.8.32
+***Search for password files***
+##################################### passwd
+2/etc/passwd
+2/usr/bin/passwd
+
+##################################### shadow
+2/etc/shadow
+
+##################################### *.psk
+
+***Search for Unix-MD5 hashes***
+
+
+***Search for SSL related files***
+##################################### *.pem
+
+##################################### *.crt
+
+##################################### *.cer
+
+##################################### *.p7b
+
+##################################### *.p12
+
+##################################### *.key
+
+
+***Search for SSH related files***
+##################################### authorized_keys
+
+##################################### *authorized_keys*
+
+##################################### host_key
+
+##################################### *host_key*
+
+##################################### id_rsa
+
+##################################### *id_rsa*
+
+##################################### id_dsa
+
+##################################### *id_dsa*
+
+##################################### *.pub
+
+
+***Search for configuration files***
+##################################### *.conf
+2/etc/resolv.conf
+2/root/etc_default/wpa_supplicant.conf
+2/usr/boa/boa.conf
+2/usr/share/hostapd_wpa2.conf
+2/usr/share/udhcpd_wpa2.conf
+
+##################################### *.cfg
+
+##################################### *.ini
+2/etc/webrtc_profile.ini
+
+
+***Search for database related files***
+##################################### *.db
+
+##################################### *.sqlite
+
+##################################### *.sqlite3
+
+
+***Search for shell scripts***
+##################################### shell scripts
+
+***Search for other .bin files***
+##################################### bin files
+
+***Search for patterns in files***
+##################################### upgrade
+2/etc/init.d/rcS
+
+##################################### admin
+
+##################################### root
+2/bin/busybox
+2/bin/cttyhack
+2/bin/hostapd
+2/bin/uname
+2/bin/wpa_supplicant
+2/etc/group
+2/etc/passwd
+2/etc/shadow
+2/thirdlib/libcrypto.so.1.1
+2/thirdlib/libnl-3.so.200.21.0
+2/usr/boa/boa
+2/usr/boa/boa.conf
+2/usr/boa/mime.types
+2/usr/share/udhcpd_wpa2.conf
+
+##################################### password
+2/bin/busybox
+2/bin/cttyhack
+2/bin/hostapd
+2/bin/uname
+2/bin/wpa_cli
+2/bin/wpa_supplicant
+2/lib/libuClibc-0.9.33.2.so
+2/thirdlib/libcrypto.so.1.1
+2/thirdlib/libcurl.so.4.5.0
+2/thirdlib/libcurl.so.4.7.0
+
+##################################### passwd
+2/bin/busybox
+2/bin/cttyhack
+2/bin/uname
+2/lib/libuClibc-0.9.33.2.so
+2/thirdlib/libcurl.so.4.7.0
+
+##################################### pwd
+2/bin/busybox
+2/bin/cttyhack
+2/bin/uname
+2/bin/wpa_supplicant
+2/lib/libuClibc-0.9.33.2.so
+2/thirdlib/libcurl.so.4.5.0
+
+##################################### dropbear
+
+##################################### ssl
+2/bin/hostapd
+2/bin/wpa_supplicant
+2/thirdlib/libcrypto.so.1.1
+2/thirdlib/libcurl.so.4.5.0
+2/thirdlib/libcurl.so.4.7.0
+2/thirdlib/libssl.so.1.1
+
+##################################### private key
+2/bin/hostapd
+2/bin/wpa_cli
+2/bin/wpa_supplicant
+2/thirdlib/libcrypto.so.1.1
+2/thirdlib/libcurl.so.4.5.0
+2/thirdlib/libcurl.so.4.7.0
+2/thirdlib/libssl.so.1.1
+
+##################################### telnet
+2/thirdlib/libcurl.so.4.5.0
+2/thirdlib/libcurl.so.4.7.0
+
+
+***Search for web servers***
+##################################### search for web servers
+##################################### apache
+
+##################################### lighttpd
+
+##################################### alphapd
+
+##################################### httpd
+2/usr/sbin/httpd
+
+
+***Search for important binaries***
+##################################### important binaries
+##################################### ssh
+
+##################################### sshd
+
+##################################### scp
+
+##################################### sftp
+
+##################################### tftp
+2/usr/bin/tftp
+
+##################################### dropbear
+
+##################################### busybox
+2/bin/busybox
+
+##################################### telnet
+2/usr/bin/telnet
+
+##################################### telnetd
+2/sbin/telnetd
+2/usr/sbin/telnetd
+
+##################################### openssl
+
+
+***Search for ip addresses***
+##################################### ip addresses
+0.0.0.0
+10.42.0.1
+10.42.0.100
+10.42.0.251
+1.2.3.4
+127.0.0.1
+129.219.13.81
+192.168.0.22
+192.168.0.44
+192.168.0.54
+192.168.1.80
+192.68.0.5
+255.255.255.0
+4.36.3.19
+
+***Search for urls***
+##################################### urls
+http://www.iana.org
+
+***Search for emails***
+##################################### emails
+andersen@codepoet.org
+Tim@Rikers.org
