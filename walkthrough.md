@@ -1,6 +1,6 @@
 # Wyze Cam Firmware Analysis
 
-##Initial analysis
+## Initial analysis
 
 > binwalk demo_wcv3.bin
 
@@ -80,6 +80,6 @@ $6$wyzecamv3$Jgd8pQHFFZxPg5C.a1hN17sKDeU4aIBc8IpNhPk/iCFsNcvogroptl66jPO0au4IK2N
 #### blob of file system 2
 >dd if=demo_wcv3.bin skip=602937 of=fs2 iflag=skip_bytes
 
-####All together
+#### All together
 > cat img filesys1.sqsh filesys2 > image
 
